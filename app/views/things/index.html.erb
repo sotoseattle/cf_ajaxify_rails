@@ -15,10 +15,7 @@
   </thead>
 
   <tbody>
-    <% @things.each do |thing| %>
-      <% @thing = thing %>
-      <%= render 'thing' %>
-    <% end %>
+    <%= render @things  %>
   </tbody>
 </table>
 
