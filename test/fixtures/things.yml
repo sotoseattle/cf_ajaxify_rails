@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  something: MyString
+  somewhat: MyString
+  and_yet: MyString
+  whatever: MyString
+  and_a_number: 1
+
+two:
+  something: MyString
+  somewhat: MyString
+  and_yet: MyString
+  whatever: MyString
+  and_a_number: 1

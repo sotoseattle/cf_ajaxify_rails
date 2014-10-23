@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Something:</strong>
+  <%= @thing.something %>
+</p>
+
+<p>
+  <strong>Somewhat:</strong>
+  <%= @thing.somewhat %>
+</p>
+
+<p>
+  <strong>And yet:</strong>
+  <%= @thing.and_yet %>
+</p>
+
+<p>
+  <strong>Whatever:</strong>
+  <%= @thing.whatever %>
+</p>
+
+<p>
+  <strong>And a number:</strong>
+  <%= @thing.and_a_number %>
+</p>
+
+<%= link_to 'Edit', edit_thing_path(@thing) %> |
+<%= link_to 'Back', things_path %>
