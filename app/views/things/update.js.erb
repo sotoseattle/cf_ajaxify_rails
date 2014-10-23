@@ -1,0 +1,2 @@
+$('#edit_thing_<%= @thing.id %>').remove();
+$('tr#<%= @thing.id %>').replaceWith('<%= j render(@thing) %>');

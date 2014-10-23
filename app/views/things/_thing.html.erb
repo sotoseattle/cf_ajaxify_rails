@@ -1,0 +1,11 @@
+<tr id="<%= @thing.id %>">
+  <td><%= @thing.something %></td>
+  <td><%= @thing.somewhat %></td>
+  <td><%= @thing.and_yet %></td>
+  <td><%= @thing.whatever %></td>
+  <td><%= @thing.and_a_number %></td>
+  <td><%= link_to 'Show', @thing %></td>
+  <td><%= link_to 'Edit', edit_thing_path(@thing), remote: true %></td>
+  <td><%= link_to 'Destroy', @thing, method: :delete,
+            remote: true, data: { confirm: 'Are you sure?' } %></td>
+</tr>
